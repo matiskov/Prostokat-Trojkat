@@ -60,10 +60,10 @@ namespace Prostokat_Trojkat
 						}
 						
 
-						for (int i = 0; i <= highP; i++)
+						for (int i = 0; i < highP; i++)
 						{
 
-							for (int x = 0; x <= widthP; x++)
+							for (int x = 0; x < widthP; x++)
 							{
 								//Console.WriteLine(x);
 								Console.Write("*");
