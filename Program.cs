@@ -10,8 +10,9 @@ namespace Prostokat_Trojkat
 			{
 				
 				Console.WriteLine("Wpisz 1. aby narysować trójkąt, wpisz 2. aby narysować prostokąt, wpisz 3. by wyjść");
-				bool test = int.TryParse(Console.ReadLine(), out int option);
-				while (!test && option != 1 && option != 2 && option != 3)
+				int option = 0;
+		
+				while (!int.TryParse(Console.ReadLine(), out option) && option != 1 && option != 2 && option != 3)
 				{
 					Console.WriteLine("Nie podałeś prawidłowej opcji, wybierz 1, 2 lub 3");
 					
@@ -20,8 +21,8 @@ namespace Prostokat_Trojkat
 				{
 					case 1:
 						Console.WriteLine("Podaj wysokość trójkąta");
-						test = int.TryParse(Console.ReadLine(), out int high);
-						while (!test)
+						int high = 0;
+						while (!int.TryParse(Console.ReadLine(), out high))
 						{
 							Console.WriteLine("Podałeś niepoprawną wartość. Podaj liczbę naturalną");
 
@@ -44,15 +45,15 @@ namespace Prostokat_Trojkat
 						break;
 					case 2:
 						Console.WriteLine("Podaj wysokość prostokąta");
-						bool test2 = int.TryParse(Console.ReadLine(), out int highP);
-						while (!test2)
+						int highP, widthP;
+						while (!int.TryParse(Console.ReadLine(), out  highP))
 						{
 							Console.WriteLine("Podałeś niepoprawną wartość. Podaj liczbę naturalną");
 
 						}
 						Console.WriteLine("Podaj szerokość prostokąta");
-						bool test3 = int.TryParse(Console.ReadLine(), out int widthP);
-						while (!test3)
+						int.TryParse(Console.ReadLine(), out widthP);
+						while (!int.TryParse(Console.ReadLine(), out  widthP))
 						{
 							Console.WriteLine("Podałeś niepoprawną wartość. Podaj liczbę naturalną");
 
