@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\Prostokat-Trojkat\bin\Debug\netcoreapp3.0\Prostokat-Trojkat.exe
+C:\Users\user\source\repos\Prostokat-Trojkat\bin\Debug\netcoreapp3.0\Prostokat-Trojkat.deps.json
+C:\Users\user\source\repos\Prostokat-Trojkat\bin\Debug\netcoreapp3.0\Prostokat-Trojkat.runtimeconfig.json
+C:\Users\user\source\repos\Prostokat-Trojkat\bin\Debug\netcoreapp3.0\Prostokat-Trojkat.runtimeconfig.dev.json
+C:\Users\user\source\repos\Prostokat-Trojkat\bin\Debug\netcoreapp3.0\Prostokat-Trojkat.dll
+C:\Users\user\source\repos\Prostokat-Trojkat\bin\Debug\netcoreapp3.0\Prostokat-Trojkat.pdb
+C:\Users\user\source\repos\Prostokat-Trojkat\obj\Debug\netcoreapp3.0\Prostokat-Trojkat.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Prostokat-Trojkat\obj\Debug\netcoreapp3.0\Prostokat-Trojkat.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Prostokat-Trojkat\obj\Debug\netcoreapp3.0\Prostokat-Trojkat.AssemblyInfo.cs
+C:\Users\user\source\repos\Prostokat-Trojkat\obj\Debug\netcoreapp3.0\Prostokat-Trojkat.dll
+C:\Users\user\source\repos\Prostokat-Trojkat\obj\Debug\netcoreapp3.0\Prostokat-Trojkat.pdb
