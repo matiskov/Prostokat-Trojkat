@@ -52,7 +52,7 @@ namespace Prostokat_Trojkat
 
 						}
 						Console.WriteLine("Podaj szerokość prostokąta");
-						int.TryParse(Console.ReadLine(), out widthP);
+						
 						while (!int.TryParse(Console.ReadLine(), out  widthP))
 						{
 							Console.WriteLine("Podałeś niepoprawną wartość. Podaj liczbę naturalną");
