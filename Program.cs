@@ -12,7 +12,7 @@ namespace Prostokat_Trojkat
 				Console.WriteLine("Wpisz 1. aby narysować trójkąt, wpisz 2. aby narysować prostokąt, wpisz 3. by wyjść");
 				int option = 0;
 		
-				while (!int.TryParse(Console.ReadLine(), out option) || option != 1 || option != 2 || option != 3)
+				while (!int.TryParse(Console.ReadLine(), out option) || option < 1 || option > 3)
 				{
 					Console.WriteLine("Nie podałeś prawidłowej opcji, wybierz 1, 2 lub 3");
 					
